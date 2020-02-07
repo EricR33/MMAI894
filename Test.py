@@ -2,8 +2,8 @@ def hello(word):
     print(word)
     print('This is a check')
 
-    print('Eman is cool')
 
-    print('new update')
+#Daily check-in -- you cant get this
+    print('Eman is cool')
 
     print('new update')
