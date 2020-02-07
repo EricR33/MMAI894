@@ -4,3 +4,6 @@ def hello(word):
 
 
 #Daily check-in -- you cant get this
+    print('Eman is cool')
+
+    print('new update')
