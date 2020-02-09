@@ -19,7 +19,7 @@ from keras.layers import Flatten
 from keras.layers import Dense
 from keras.callbacks import Callback
 
-
+#this is a test comment from Shelley
 
 
 train_datagen = ImageDataGenerator(rescale=1./255,
