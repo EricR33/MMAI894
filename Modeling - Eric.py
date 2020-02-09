@@ -61,3 +61,4 @@ validation_generator = test_datagen.flow_from_directory(
         batch_size=batch_size,
         class_mode='binary')
 
+print('hey how are you')
