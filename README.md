@@ -3,11 +3,11 @@ Please save the two datasets to the local repository:
 
 
 Concrete Crack Images for Classification - our main dataset (approved) ("https://data.mendeley.com/datasets/5y9wdsg2zt/2")
--- Please download the dataset and save it in the local repository
+-- Please download the dataset and save it in a local folder A
 
 
 SDNET2018 - for transferrability ("https://digitalcommons.usu.edu/all_datasets/48/")
--- Please download the dataset and save it in the local repository
+-- Please download the dataset and save it in the local folder A
 
 
 
@@ -33,17 +33,23 @@ Description of each file:
 1. Keras_Model_Benchmark
 -- Keras Model functions as performance benchmark
 
-2. Model_Preprocessing_Method_1
--- Main Pytorch model with preprocessing method 1
-
-3. model.pt
+2. model.pt
 -- Saved Pytorch model with preprocessing method 1
+-- Please save it to a local folder A
 
-4. Model_Preprocessing_Method_2
--- Main Pytorch model with preprocessing method 2
+3. Model_Preprocessing_Method_1
+-- Main Pytorch model with preprocessing method 1
+-- data_dir = 'path to folder A'
+-- model = torch.load('path to folder A')
 
-5. model1.pt
+4. model1.pt
 -- Saved Pytorch model with preprocessing method 2
+-- Please save it to a local folder A
+
+5. Model_Preprocessing_Method_2
+-- Main Pytorch model with preprocessing method 2
+-- data_dir = 'path to folder A'
+-- model = torch.load('path to folder A')
 
 6. Model Structure
 -- Architecture of both Pytroch models
