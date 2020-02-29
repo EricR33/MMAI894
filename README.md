@@ -35,7 +35,7 @@ Description of each file:
 
 2. model.pt
 -- Saved Pytorch model with preprocessing method 1
--- Please save it to a local folder A
+-- Please save it to the local folder A
 
 3. Model_Preprocessing_Method_1
 -- Main Pytorch model with preprocessing method 1
@@ -44,7 +44,7 @@ Description of each file:
 
 4. model1.pt
 -- Saved Pytorch model with preprocessing method 2
--- Please save it to a local folder A
+-- Please save it to the local folder A
 
 5. Model_Preprocessing_Method_2
 -- Main Pytorch model with preprocessing method 2
