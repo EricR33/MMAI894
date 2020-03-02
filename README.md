@@ -11,7 +11,7 @@ SDNET2018 - for transferrability ("https://digitalcommons.usu.edu/all_datasets/4
 
 
 
-Python required packages:
+Libraries required packages For CNN & Transfer Learning Models:
 
 - matplotlib
 - numpy
@@ -26,6 +26,24 @@ Python required packages:
 - tqdm
 - skimgage
 - scipy
+
+
+Instructions for Mask R-CNN File:
+1) Download Mask R-CNN folder and its entirety to your desktop
+2) Set current working directory to the Mask R-CNN folder on your desktop
+3) Code is located under the Mask R-CNN/Samples/Cracks/Mask R-CNN.py 
+4) Ensure the following libraries are in your IDE environment
+
+
+Mask R-CNN Libraries
+1) Scikit Learn 0.21.3
+2) Python 3.7
+3) Tensorflow 1.14.0
+4) Matplotlib 3.1.1
+5) Keras 2.3.1
+6) Numpy 1.17.2
+7) Pandas 0.25.1
+8) Scikit-Image 0.15.0
 
 
 Description of each file:
@@ -62,3 +80,6 @@ Description of each file:
 
 9. Transfer_Learning_ResNet50
 -- Main Transfer Learning model ResNet50
+
+10. Mask R-CNN
+-- Contains all the relevant code to run the Mask R-CNN Transfer Learning Code
