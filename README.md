@@ -29,13 +29,12 @@ Libraries required packages For CNN & Transfer Learning Models:
 
 
 Instructions for Mask R-CNN File:
-1) Download Mask R-CNN folder and its entirety to your desktop
-2) Set current working directory to the Mask R-CNN folder on your desktop
-3) Code is located under the Mask R-CNN/Samples/Cracks/Mask R-CNN.py 
+1) Download the MMAI 894 folder to your desktop from https://drive.google.com/drive/folders/10PN92FwF-wcu-4NcGQNhm3Zy94dms_Lo?usp=sharing --> this contains all of the files required to run Mask R-CNN = folder contains very large files, which couldn't be uploaded to GitHub
+2) Code is located under the Mask R-CNN/Samples/Cracks/Mask R-CNN.ipynb or on the GitHub Repository as Mask_R-CNN.ipynb
+3) Set current working directory to the Mask R-CNN folder on your desktop inside the code (Line 1)
 4) Ensure the following libraries are in your IDE environment
 
-
-Mask R-CNN Libraries
+Required Mask R-CNN Libraries
 1) Scikit Learn 0.21.3
 2) Python 3.7
 3) Tensorflow 1.14.0
@@ -50,6 +49,7 @@ Description of each file:
 
 1. Keras_Model_Benchmark
 -- Keras Model functions as performance benchmark
+-- devjit_keras -- Keras backup model
 
 2. model.pt
 -- Saved Pytorch model with preprocessing method 1
@@ -81,5 +81,5 @@ Description of each file:
 9. Transfer_Learning_ResNet50
 -- Main Transfer Learning model ResNet50
 
-10. Mask R-CNN
--- Contains all the relevant code to run the Mask R-CNN Transfer Learning Code
+10. Mask_R-CNN.ipynb
+-- Contains the code to run the Mask R-CNN Transfer Learning Code
