@@ -49,7 +49,6 @@ Description of each file:
 
 1. Keras_Model_Benchmark
 -- Keras Model functions as performance benchmark
--- devjit_keras -- Keras backup model
 
 2. model.pt
 -- Saved Pytorch model with preprocessing method 1
@@ -83,3 +82,6 @@ Description of each file:
 
 10. Mask_R-CNN.ipynb
 -- Contains the code to run the Mask R-CNN Transfer Learning Code
+
+11. devjit_keras 
+-- Keras backup model
